@@ -1,0 +1,48 @@
+name: Update Blog Posts
+
+on:
+  schedule:
+    # Runs every Tuesday at 8:00 PM UTC
+    # Adjust timezone by modifying the hour (e.g., 20:00 UTC = 8:00 PM UTC)
+    - cron: '0 20 * * 2'
+  
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-posts:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+      
+      - name: Run scraper
+        run: python scripts/scrape_posts.py
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --quiet posts_dates.json || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add posts_dates.json
+          git commit -m "Update posts_dates.json - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
