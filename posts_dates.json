@@ -1,0 +1,722 @@
+[
+  {
+    "url": "https://hw.glich.co/p/hello-world",
+    "publishDate": "2023-11-15T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-an-api",
+    "publishDate": "2023-11-20T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-jwt-token",
+    "publishDate": "2023-11-27T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-reverse-proxy-and-forward-proxy",
+    "publishDate": "2023-12-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-an-orm",
+    "publishDate": "2023-12-11T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-are-microservices",
+    "publishDate": "2023-12-18T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-an-ip-address",
+    "publishDate": "2023-12-25T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-dns-and-how-does-it-work",
+    "publishDate": "2024-01-01T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-encryption-and-different-types-of-encryption",
+    "publishDate": "2024-01-08T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-ci-cd-and-why-is-it-even-needed",
+    "publishDate": "2024-01-15T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-redis",
+    "publishDate": "2024-01-22T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-http",
+    "publishDate": "2024-01-29T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-serverless",
+    "publishDate": "2024-02-05T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-tcp",
+    "publishDate": "2024-02-12T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-udp",
+    "publishDate": "2024-02-19T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-an-api-gateway",
+    "publishDate": "2024-02-26T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-url-uri-and-urn",
+    "publishDate": "2024-03-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-hashing-and-what-different-types-are-there",
+    "publishDate": "2024-03-11T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-does-cdn-works",
+    "publishDate": "2024-03-18T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-blockchain-and-how-is-cryptocurrency-related-to-it",
+    "publishDate": "2024-03-25T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/micro-frontend-architecture",
+    "publishDate": "2024-04-01T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-are-websocket",
+    "publishDate": "2024-04-08T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-spf-record-why-is-it-used",
+    "publishDate": "2024-04-15T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-webrtc",
+    "publishDate": "2024-04-22T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-dkim-record-why-is-it-used",
+    "publishDate": "2024-04-29T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-dmarc-record-why-is-it-used",
+    "publishDate": "2024-05-06T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-docker",
+    "publishDate": "2024-05-13T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-kubernetes",
+    "publishDate": "2024-05-20T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-kafka",
+    "publishDate": "2024-05-27T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-cassandra",
+    "publishDate": "2024-06-03T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-elasticsearch",
+    "publishDate": "2024-06-10T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-rabbitmq",
+    "publishDate": "2024-06-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-postgresql",
+    "publishDate": "2024-06-24T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-mongodb",
+    "publishDate": "2024-07-01T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-kibana",
+    "publishDate": "2024-07-08T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-grafana",
+    "publishDate": "2024-07-15T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-load-balancing",
+    "publishDate": "2024-07-22T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-oauth",
+    "publishDate": "2024-07-29T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-spotify-optimized-their-recommendation-system",
+    "publishDate": "2024-08-05T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-twitter-manages-high-availability-with-kubernetes",
+    "publishDate": "2024-08-12T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-airbnb-uses-machine-learning-for-dynamic-pricing",
+    "publishDate": "2024-08-19T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-facebook-handles-billions-of-messages-daily",
+    "publishDate": "2024-08-26T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-pinterest-scales-their-image-search-with-elasticsearch",
+    "publishDate": "2024-09-02T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-amazon-personalizes-product-recommendations",
+    "publishDate": "2024-09-09T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-zoom-ensures-low-latency-video-calls",
+    "publishDate": "2024-09-16T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-slack-maintains-reliability-and-uptime",
+    "publishDate": "2024-09-23T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-uber-manages-real-time-analytics-with-apache-flink",
+    "publishDate": "2024-09-30T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-netflix-secures-content-delivery",
+    "publishDate": "2024-10-07T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-tinder-streams-to-75-million-users-with-http-live-streaming",
+    "publishDate": "2024-10-14T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-stripe-handles-global-payments-technology",
+    "publishDate": "2024-10-21T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-google-search-works",
+    "publishDate": "2024-10-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-instagram-handled-user-growth-and-scale",
+    "publishDate": "2024-11-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-github-manages-continuous-integration-and-deployment",
+    "publishDate": "2024-11-11T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-tiktok-optimizes-video-streaming",
+    "publishDate": "2024-11-18T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-dropbox-scaled-its-storage-infrastructure",
+    "publishDate": "2024-11-25T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-did-magic-pocket-help-dropbox-save-millions",
+    "publishDate": "2024-12-02T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-linkedin-scaled-to-1-billion-users",
+    "publishDate": "2024-12-09T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-airbnb-s-user-signals-platform-process-a-million-user-events-every-second",
+    "publishDate": "2024-12-16T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-facebook-built-its-video-delivery-system",
+    "publishDate": "2024-12-23T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-reddit-designed-their-metadata-store-to-serve-100k-req-sec",
+    "publishDate": "2024-12-30T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-doordash-transitioned-from-monolith-to-microservices-be29",
+    "publishDate": "2025-01-06T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-stripe-achieved-99-999-uptime-with-docdb-document-database",
+    "publishDate": "2025-01-13T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-robinhood-prevents-fraud-using-graph-algorithms",
+    "publishDate": "2025-01-20T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-quora-optimized-their-databases",
+    "publishDate": "2025-01-27T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-jira-saved-55-cost-and-75-cpu-by-moving-from-json-to-protobuf",
+    "publishDate": "2025-02-03T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-quora-improved-its-search-system-with-qdrant",
+    "publishDate": "2025-02-10T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-meta-distributes-exabytes-of-data-across-the-world-so-fast",
+    "publishDate": "2025-02-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-bbc-uses-serverless-to-handle-millions-of-visitors",
+    "publishDate": "2025-02-24T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-stripe-uses-similarity-clustering-to-detect-fraud",
+    "publishDate": "2025-03-03T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-airbnb-rebuilt-its-payment-system-to-achieve-150x-performance-gains",
+    "publishDate": "2025-03-10T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-wayfair-built-their-ad-bidding-system",
+    "publishDate": "2025-03-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-paypal-solved-the-thundering-herd-problem-efficiently",
+    "publishDate": "2025-03-24T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-netflix-ensures-reliability-with-prioritized-load-shedding",
+    "publishDate": "2025-03-31T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-upi-works",
+    "publishDate": "2025-04-07T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-stripe-scales-its-apis-using-rate-limiters",
+    "publishDate": "2025-04-14T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-netflix-built-a-distributed-counter-for-billions-of-user-interactions",
+    "publishDate": "2025-04-21T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-mixpanel-fixed-their-load-balancing-problem-using-power-of-2-choices",
+    "publishDate": "2025-04-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-github-made-push-processing-faster-and-more-reliable",
+    "publishDate": "2025-05-05T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-discord-s-go-live-streaming-works",
+    "publishDate": "2025-05-12T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-grab-enabled-near-real-time-analytics-on-their-data-lake",
+    "publishDate": "2025-05-19T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-pinterest-improved-abr-video-performance",
+    "publishDate": "2025-05-26T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-pinterest-built-holiday-finds-to-make-gift-shopping-easier",
+    "publishDate": "2025-06-02T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-pinterest-uses-llms-to-make-your-search-results-more-relevant",
+    "publishDate": "2025-06-09T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-pinterest-rebuilt-its-3b-ads-system-without-any-downtime",
+    "publishDate": "2025-06-16T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/outages-password-leaks-what-else-happened-this-week",
+    "publishDate": "2025-06-21T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-pinterest-built-text-to-sql-to-make-data-analysis-easier",
+    "publishDate": "2025-06-23T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/icloud-down-css-got-smart-what-s-going-on-in-tech-town",
+    "publishDate": "2025-06-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-uber-eats-scaled-search-to-handle-billions-of-daily-queries",
+    "publishDate": "2025-06-30T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/cloudflare-containers-nvidia-reaching-4-trillion-just-another-productive-week-in-tech",
+    "publishDate": "2025-07-05T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-facebook-scales-live-streaming-for-millions-of-viewers-at-once",
+    "publishDate": "2025-07-07T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/unemployed-soham-parek-figma-s-300k-bleeding-and-korean-npus",
+    "publishDate": "2025-07-12T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-uber-handles-40-million-reads-per-second-using-an-integrated-cache",
+    "publishDate": "2025-07-14T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/difference-between-synchronous-and-asynchronous-communication",
+    "publishDate": "2025-07-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/chrome-weds-android-and-meta-pays-10k",
+    "publishDate": "2025-07-19T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-pinterest-evolved-its-architecture-to-serve-500-million-users",
+    "publishDate": "2025-07-21T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/encryption-vs-tokenization",
+    "publishDate": "2025-07-23T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/hacked-week-microsoft-kills-storefront-and-react-uses-vue",
+    "publishDate": "2025-07-26T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-amazon-key-unlocks-100-million-doors-a-year",
+    "publishDate": "2025-07-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/understanding-api-gateway-in-microservices-key-benefits-use-cases",
+    "publishDate": "2025-07-30T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-did-tea-dating-app-get-hacked",
+    "publishDate": "2025-08-02T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-meta-powers-its-cloud-gaming-infrastructure-at-scale",
+    "publishDate": "2025-08-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-cap-theorem",
+    "publishDate": "2025-08-06T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-iot-in-simple-words",
+    "publishDate": "2025-08-09T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/gpt-5-in-a-nutshell-and-google-getting-hacked",
+    "publishDate": "2025-08-09T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-spotify-powers-music-streaming-for-millions",
+    "publishDate": "2025-08-11T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/monolith-vs-microservices-architecture",
+    "publishDate": "2025-08-13T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/perplexity-proposes-chrome-to-not-so-good-gpt-5",
+    "publishDate": "2025-08-16T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-does-the-internet-work",
+    "publishDate": "2025-08-16T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-x-formerly-twitter-handles-millions-of-tweets-every-second",
+    "publishDate": "2025-08-18T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/vertical-vs-horizontal-scaling",
+    "publishDate": "2025-08-20T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-nasa-ensures-quality-assurance-in-space-missions",
+    "publishDate": "2025-08-23T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-salesforce-migrated-760-kafka-nodes-handling-1m-messages-per-second-with-zero-downtime",
+    "publishDate": "2025-08-25T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-are-ai-agents",
+    "publishDate": "2025-08-27T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/system-design-fundamentals",
+    "publishDate": "2025-08-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/performance-and-scalability-in-web-applications",
+    "publishDate": "2025-08-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/data-management-in-applications",
+    "publishDate": "2025-08-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/authentication-access-control",
+    "publishDate": "2025-08-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/computer-networking-explained",
+    "publishDate": "2025-08-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/macrohard-for-microsoft-to-claude-going-inside-chrome",
+    "publishDate": "2025-08-30T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-an-application-server-88a2",
+    "publishDate": "2025-09-01T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-razorpay-capital-detects-duplicate-or-fraudulent-merchants",
+    "publishDate": "2025-09-01T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-read-write-splitting",
+    "publishDate": "2025-09-02T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-nosql",
+    "publishDate": "2025-09-03T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/storage-systems-blob-file-object-and-thier-difference-6a86",
+    "publishDate": "2025-09-03T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/client-side-vs-server-side-caching",
+    "publishDate": "2025-09-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-memcached",
+    "publishDate": "2025-09-05T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/why-tesla-dojo-failed",
+    "publishDate": "2025-09-06T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/redis-vs-memcached-when-to-use-what",
+    "publishDate": "2025-09-06T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/cdn-vs-edge-cache",
+    "publishDate": "2025-09-08T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-hyperforce-edge-networking-scaled-to-20-million-domains-with-less-than-30gb-of-ram",
+    "publishDate": "2025-09-08T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/write-through-write-back-and-write-around-in-cache",
+    "publishDate": "2025-09-08T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/latency-vs-throughput",
+    "publishDate": "2025-09-09T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/difference-between-data-sharding-and-partitioning",
+    "publishDate": "2025-09-10T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-homomorphic-encryption",
+    "publishDate": "2025-09-10T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-strong-vs-eventual-consistency",
+    "publishDate": "2025-09-11T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/protobuf-vs-json",
+    "publishDate": "2025-09-12T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/circuit-breaker-vs-retry",
+    "publishDate": "2025-09-13T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/npm-supply-chain-attack-billions-affected",
+    "publishDate": "2025-09-13T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-http-keep-alive",
+    "publishDate": "2025-09-14T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/api-gateway-patterns-in-microservies",
+    "publishDate": "2025-09-15T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-swiggy-improved-video-performance-with-smart-caching",
+    "publishDate": "2025-09-15T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-distributed-caching",
+    "publishDate": "2025-09-16T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/agile-vs-waterfall-which-software-development-model-should-you-pick",
+    "publishDate": "2025-09-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-are-vector-databases-the-secret-sauce-behind-ai-search-engines",
+    "publishDate": "2025-09-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/authentication-explained-basic-bearer-oauth-2-jwt-sso",
+    "publishDate": "2025-09-18T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/authorization-rbac-vs-abac",
+    "publishDate": "2025-09-19T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/why-developer-experience-matters",
+    "publishDate": "2025-09-20T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/edge-computing-vs-fog-computing",
+    "publishDate": "2025-09-20T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/api-rate-limiting-vs-api-throttling",
+    "publishDate": "2025-09-22T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-salesforce-migrated-200-000-machines-from-centos-7-to-rhel-9",
+    "publishDate": "2025-09-22T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/why-gpus-dominate-ai-training-and-what-tpus-do-differently",
+    "publishDate": "2025-09-24T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/ai-revolutionizing-frontend-development",
+    "publishDate": "2025-09-27T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-zomato-handles-100-million-daily-search-queries",
+    "publishDate": "2025-09-29T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/just-in-time-jit-compilation-how-it-speeds-up-code",
+    "publishDate": "2025-10-01T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/artificial-general-intelligence-or-illusion",
+    "publishDate": "2025-10-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-salesforce-reinvented-task-execution-for-the-cloud-era",
+    "publishDate": "2025-10-06T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/acid-vs-base-which-database-consistency-model-should-you-use",
+    "publishDate": "2025-10-08T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/openai-devday-2025-highlights",
+    "publishDate": "2025-10-11T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-linkedin-built-a-faster-safer-and-smarter-hdfs-ecosystem",
+    "publishDate": "2025-10-13T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-chaos-engineering",
+    "publishDate": "2025-10-15T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/why-ai-models-hallucinate-and-how-to-reduce-it",
+    "publishDate": "2025-10-18T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-razorpay-prepared-for-chrome-s-third-party-cookie-deprecation",
+    "publishDate": "2025-10-20T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-event-driven-architecture",
+    "publishDate": "2025-10-22T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/chatgpt-atlas-vs-perplexity-comet-vs-chrome-browser-comparison-56e2",
+    "publishDate": "2025-10-25T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-swiggy-scaled-and-maintained-postgres",
+    "publishDate": "2025-10-27T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-context-switching-works-in-operating-systems",
+    "publishDate": "2025-10-29T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/azure-cloud-outage-what-went-wrong-and-how-microsoft-fixed-it",
+    "publishDate": "2025-11-01T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-linkedin-cut-build-times-from-30-minutes-to-10-seconds",
+    "publishDate": "2025-11-03T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-token-bucket-algorithm",
+    "publishDate": "2025-11-05T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/latest-ai-developments-october-2025",
+    "publishDate": "2025-11-08T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-razorpay-uses-terraform-to-simplify-and-scale-infrastructure-management",
+    "publishDate": "2025-11-10T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-garbage-collection-how-it-really-works",
+    "publishDate": "2025-11-12T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/vibe-coding-ai-and-the-future-of-citizen-development",
+    "publishDate": "2025-11-15T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-swiggy-cut-qa-regression-time-by-66-using-automated-event-testing",
+    "publishDate": "2025-11-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-the-n-1-query-problem",
+    "publishDate": "2025-11-19T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/all-you-need-to-know-about-gemini-3-0",
+    "publishDate": "2025-11-22T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-linkedin-made-the-my-network-tab-faster-smoother-and-more-flexible",
+    "publishDate": "2025-11-24T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-debuggers-know-what-to-show-you-program-slicing",
+    "publishDate": "2025-11-26T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/all-you-need-to-know-anthropic-claude-4-5-opus",
+    "publishDate": "2025-11-29T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-lyft-rebuilt-its-iconic-dashboard-emblem-and-its-entire-iot-platform-along-with-it",
+    "publishDate": "2025-12-01T00:00:00"
+  }
+]
