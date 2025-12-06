@@ -113,7 +113,7 @@ async function loadPostsFromJSON() {
     return posts;
   } catch (error) {
     console.error("Error loading posts:", error.message);
-    errorMessage.textContent = `Error loading posts: ${error.message}. Make sure to run the Python scraper first!`;
+    errorMessage.textContent = `Error loading posts: ${error.message}.`;
     errorMessage.style.display = "block";
     return [];
   }
@@ -192,7 +192,7 @@ async function initializeApp() {
     loadingIndicator.style.display = "none";
     errorMessage.textContent =
       errorMessage.textContent ||
-      "Could not load any posts. Run the Python scraper first!";
+      "Could not load any posts.";
     errorMessage.style.display = "block";
     return;
   }
