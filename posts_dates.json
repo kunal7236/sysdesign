@@ -730,5 +730,17 @@
   {
     "url": "https://hw.glich.co/p/how-airbnb-measures-the-lifetime-value-of-a-listing",
     "publishDate": "2025-12-08T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-happens-during-a-database-migration",
+    "publishDate": "2025-12-10T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/are-ai-chips-getting-old-too-fast",
+    "publishDate": "2025-12-13T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-zomato-improved-their-android-app-startup-time-by-over-20-using-baseline-profiles",
+    "publishDate": "2025-12-15T00:00:00"
   }
 ]
