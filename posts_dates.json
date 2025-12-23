@@ -464,11 +464,11 @@
     "publishDate": "2025-08-28T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/authentication-access-control",
+    "url": "https://hw.glich.co/p/computer-networking-explained",
     "publishDate": "2025-08-28T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/computer-networking-explained",
+    "url": "https://hw.glich.co/p/authentication-access-control",
     "publishDate": "2025-08-28T00:00:00"
   },
   {
@@ -742,5 +742,17 @@
   {
     "url": "https://hw.glich.co/p/how-zomato-improved-their-android-app-startup-time-by-over-20-using-baseline-profiles",
     "publishDate": "2025-12-15T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-mutation-testing-just-break-your-code",
+    "publishDate": "2025-12-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/software-development-predictions-for-2026",
+    "publishDate": "2025-12-20T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-airbnb-builds-products-10x-faster-using-graphql-and-apollo",
+    "publishDate": "2025-12-22T00:00:00"
   }
 ]
