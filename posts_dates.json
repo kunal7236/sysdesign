@@ -464,11 +464,11 @@
     "publishDate": "2025-08-28T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/computer-networking-explained",
+    "url": "https://hw.glich.co/p/authentication-access-control",
     "publishDate": "2025-08-28T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/authentication-access-control",
+    "url": "https://hw.glich.co/p/computer-networking-explained",
     "publishDate": "2025-08-28T00:00:00"
   },
   {
@@ -754,5 +754,17 @@
   {
     "url": "https://hw.glich.co/p/how-airbnb-builds-products-10x-faster-using-graphql-and-apollo",
     "publishDate": "2025-12-22T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-metamorphic-testing",
+    "publishDate": "2025-12-24T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/ai-coding-productivity-gains-friction-slows-teams-down",
+    "publishDate": "2025-12-27T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-lyft-built-an-in-app-messaging-without-annoying-riders",
+    "publishDate": "2025-12-29T00:00:00"
   }
 ]
