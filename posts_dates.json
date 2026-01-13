@@ -778,5 +778,17 @@
   {
     "url": "https://hw.glich.co/p/how-linkedin-reduced-latency-and-cost-by-merging-two-critical-systems",
     "publishDate": "2026-01-05T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-a-dead-letter-queue-handling-messages-that-fail",
+    "publishDate": "2026-01-07T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/ai-destroys-tailwindcss-to-aws-learns-from-mistakes",
+    "publishDate": "2026-01-10T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-linkedin-rebuilt-its-profile-highlights-system",
+    "publishDate": "2026-01-12T00:00:00"
   }
 ]
