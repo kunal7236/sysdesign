@@ -369,7 +369,7 @@
   },
   {
     "url": "https://hw.glich.co/p/difference-between-synchronous-and-asynchronous-communication",
-    "publishDate": "2025-07-17T00:00:00"
+    "publishDate": "2025-07-16T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/chrome-weds-android-and-meta-pays-10k",
@@ -513,7 +513,7 @@
   },
   {
     "url": "https://hw.glich.co/p/cdn-vs-edge-cache",
-    "publishDate": "2025-09-08T00:00:00"
+    "publishDate": "2025-09-07T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/how-hyperforce-edge-networking-scaled-to-20-million-domains-with-less-than-30gb-of-ram",
@@ -816,11 +816,31 @@
     "publishDate": "2026-01-26T00:00:00"
   },
   {
+    "url": "https://hw.glich.co/p/what-is-publish-subscribe-pattern",
+    "publishDate": "2026-01-28T00:00:00"
+  },
+  {
     "url": "https://hw.glich.co/p/why-small-language-models-are-winning-on-the-edge",
     "publishDate": "2026-01-31T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/how-dropbox-dash-uses-context-engineering-to-build-smarter-ai",
     "publishDate": "2026-02-02T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-reactive-programming",
+    "publishDate": "2026-02-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/claude-opus-4-6-anthropic-raises-the-bar-for-agentic-ai",
+    "publishDate": "2026-02-07T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-spotify-scaled-content-annotations-to-millions-without-losing-quality",
+    "publishDate": "2026-02-09T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-is-mlops-bridging-the-gap-between-devops-and-machine-learning",
+    "publishDate": "2026-02-11T00:00:00"
   }
 ]
