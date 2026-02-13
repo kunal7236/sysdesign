@@ -1,13 +1,14 @@
 name: Update Blog Posts
 
-on:
-  schedule:
-    # Runs every Tuesday at 8:00 PM UTC
-    # Adjust timezone by modifying the hour (e.g., 20:00 UTC = 8:00 PM UTC)
-    - cron: '0 20 * * 2'
-  
-  # Allow manual trigger from GitHub Actions tab
-  workflow_dispatch:
+# Workflow disabled - triggers commented out
+# on:
+#   schedule:
+#     # Runs every Tuesday at 8:00 PM UTC
+#     # Adjust timezone by modifying the hour (e.g., 20:00 UTC = 8:00 PM UTC)
+#     - cron: '0 20 * * 2'
+#   
+#   # Allow manual trigger from GitHub Actions tab
+#   workflow_dispatch:
 
 jobs:
   update-posts:
