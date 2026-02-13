@@ -9,6 +9,7 @@ This script is designed to run in a GitHub Actions workflow.
 """
 
 import requests
+import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 from datetime import datetime
 import json
@@ -37,14 +38,29 @@ def fetch_sitemap(url: str) -> list[str]:
     """
     print(f"Fetching sitemap from {url}...")
     
+    # Fetch the sitemap XML
     response = requests.get(url, timeout=30)
     response.raise_for_status()
     
-    soup = BeautifulSoup(response.content, "lxml-xml")
-    all_urls = [loc.text.strip() for loc in soup.find_all("loc")]
+    # Parse XML with proper namespace
+    namespaces = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+    root = ET.fromstring(response.content)
     
-    # Filter to keep only blog post URLs (those starting with /p/)
-    post_urls = [u for u in all_urls if u.startswith(POST_URL_PREFIX)]
+    all_urls = []
+    post_urls = []
+    
+    # Extract URLs from sitemap
+    for url_elem in root.findall('ns:url', namespaces):
+        loc_elem = url_elem.find('ns:loc', namespaces)
+        if loc_elem is None:
+            continue
+            
+        loc = loc_elem.text.strip()
+        all_urls.append(loc)
+        
+        # Only keep blog post URLs (those starting with /p/)
+        if loc.startswith(POST_URL_PREFIX):
+            post_urls.append(loc)
     
     print(f"Found {len(all_urls)} total URLs in sitemap")
     print(f"Filtered to {len(post_urls)} blog post URLs (prefix: {POST_URL_PREFIX})")
@@ -82,11 +98,7 @@ def parse_date_string(date_str: str) -> datetime | None:
 
 def extract_publish_date(url: str) -> dict | None:
     """
-    Fetches a page and extracts the publish date.
-    
-    The date is expected in a span with:
-    - class: "text-wt-text-on-background"
-    - style containing: "opacity:0.75" or "opacity: 0.75"
+    Fetches a page and extracts the publish date from span elements.
     
     Args:
         url: The page URL to scrape
@@ -104,32 +116,15 @@ def extract_publish_date(url: str) -> dict | None:
         
         soup = BeautifulSoup(response.text, "html.parser")
         
-        # Find span with class "text-wt-text-on-background" and opacity style
-        date_spans = soup.find_all("span", class_="text-wt-text-on-background")
-        
-        for span in date_spans:
-            style = span.get("style", "")
-            if re.search(r"opacity\s*:\s*0\.75", style):
-                date_text = span.get_text().strip()
-                parsed_date = parse_date_string(date_text)
-                
-                if parsed_date:
-                    return {
-                        "url": url,
-                        "publishDate": parsed_date.strftime("%Y-%m-%dT00:00:00")
-                    }
-        
-        # Fallback: try time tags
-        time_tag = soup.find("time")
-        if time_tag:
-            datetime_attr = time_tag.get("datetime") or time_tag.get_text()
-            if datetime_attr:
-                parsed_date = parse_date_string(datetime_attr)
-                if parsed_date:
-                    return {
-                        "url": url,
-                        "publishDate": parsed_date.strftime("%Y-%m-%dT00:00:00")
-                    }
+        # Look for date in all span elements
+        for span in soup.find_all("span"):
+            text = span.get_text().strip()
+            parsed_date = parse_date_string(text)
+            if parsed_date:
+                return {
+                    "url": url,
+                    "publishDate": parsed_date.strftime("%Y-%m-%dT00:00:00")
+                }
         
         print(f"  Warning: No date found for: {url}")
         return {
@@ -181,6 +176,9 @@ def scrape_all_posts(urls: list[str], max_workers: int = 10) -> list[dict]:
     return results
 
 
+
+
+
 def sort_by_date(posts: list[dict]) -> list[dict]:
     """Sorts posts by publishDate from oldest to newest."""
     return sorted(posts, key=lambda x: x["publishDate"])
@@ -208,7 +206,7 @@ def main():
         print("No blog post URLs found. Exiting.")
         sys.exit(1)
     
-    # Step 2: Scrape publish dates
+    # Step 2: Scrape publish dates from individual pages
     posts = scrape_all_posts(post_urls, max_workers=MAX_WORKERS)
     
     if not posts:
