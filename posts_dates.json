@@ -862,5 +862,17 @@
   {
     "url": "https://hw.glich.co/p/why-spotify-s-shuffle-never-felt-random-and-what-they-did-about-it",
     "publishDate": "2026-02-23T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/observability-vs-monitoring-technical-differences",
+    "publishDate": "2026-02-25T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/lessons-from-growing-a-software-leadership-team",
+    "publishDate": "2026-02-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-shopify-built-super-fast-search-at-c-speed",
+    "publishDate": "2026-03-02T00:00:00"
   }
 ]
