@@ -4,10 +4,6 @@
     "publishDate": "2023-11-15T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/what-is-an-api",
-    "publishDate": "2023-11-20T00:00:00"
-  },
-  {
     "url": "https://hw.glich.co/p/what-is-jwt-token",
     "publishDate": "2023-11-27T00:00:00"
   },
@@ -20,20 +16,12 @@
     "publishDate": "2023-12-11T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/what-are-microservices",
-    "publishDate": "2023-12-18T00:00:00"
-  },
-  {
     "url": "https://hw.glich.co/p/what-is-an-ip-address",
     "publishDate": "2023-12-25T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/what-is-dns-and-how-does-it-work",
     "publishDate": "2024-01-01T00:00:00"
-  },
-  {
-    "url": "https://hw.glich.co/p/what-is-encryption-and-different-types-of-encryption",
-    "publishDate": "2024-01-08T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/what-is-ci-cd-and-why-is-it-even-needed",
@@ -46,10 +34,6 @@
   {
     "url": "https://hw.glich.co/p/what-is-http",
     "publishDate": "2024-01-29T00:00:00"
-  },
-  {
-    "url": "https://hw.glich.co/p/what-is-serverless",
-    "publishDate": "2024-02-05T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/what-is-tcp",
@@ -120,16 +104,8 @@
     "publishDate": "2024-06-03T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/what-is-elasticsearch",
-    "publishDate": "2024-06-10T00:00:00"
-  },
-  {
     "url": "https://hw.glich.co/p/what-is-rabbitmq",
     "publishDate": "2024-06-17T00:00:00"
-  },
-  {
-    "url": "https://hw.glich.co/p/what-is-postgresql",
-    "publishDate": "2024-06-24T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/what-is-mongodb",
@@ -148,10 +124,6 @@
     "publishDate": "2024-07-22T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/what-is-oauth",
-    "publishDate": "2024-07-29T00:00:00"
-  },
-  {
     "url": "https://hw.glich.co/p/how-spotify-optimized-their-recommendation-system",
     "publishDate": "2024-08-05T00:00:00"
   },
@@ -166,10 +138,6 @@
   {
     "url": "https://hw.glich.co/p/how-facebook-handles-billions-of-messages-daily",
     "publishDate": "2024-08-26T00:00:00"
-  },
-  {
-    "url": "https://hw.glich.co/p/how-pinterest-scales-their-image-search-with-elasticsearch",
-    "publishDate": "2024-09-02T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/how-amazon-personalizes-product-recommendations",
@@ -198,10 +166,6 @@
   {
     "url": "https://hw.glich.co/p/how-stripe-handles-global-payments-technology",
     "publishDate": "2024-10-21T00:00:00"
-  },
-  {
-    "url": "https://hw.glich.co/p/how-google-search-works",
-    "publishDate": "2024-10-28T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/how-instagram-handled-user-growth-and-scale",
@@ -428,10 +392,6 @@
     "publishDate": "2025-08-16T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/how-does-the-internet-work",
-    "publishDate": "2025-08-16T00:00:00"
-  },
-  {
     "url": "https://hw.glich.co/p/how-x-formerly-twitter-handles-millions-of-tweets-every-second",
     "publishDate": "2025-08-18T00:00:00"
   },
@@ -520,10 +480,6 @@
     "publishDate": "2025-09-08T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/write-through-write-back-and-write-around-in-cache",
-    "publishDate": "2025-09-08T00:00:00"
-  },
-  {
     "url": "https://hw.glich.co/p/latency-vs-throughput",
     "publishDate": "2025-09-09T00:00:00"
   },
@@ -532,16 +488,8 @@
     "publishDate": "2025-09-10T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/what-is-homomorphic-encryption",
-    "publishDate": "2025-09-10T00:00:00"
-  },
-  {
     "url": "https://hw.glich.co/p/what-is-strong-vs-eventual-consistency",
     "publishDate": "2025-09-11T00:00:00"
-  },
-  {
-    "url": "https://hw.glich.co/p/protobuf-vs-json",
-    "publishDate": "2025-09-12T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/circuit-breaker-vs-retry",
@@ -628,10 +576,6 @@
     "publishDate": "2025-10-08T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/openai-devday-2025-highlights",
-    "publishDate": "2025-10-11T00:00:00"
-  },
-  {
     "url": "https://hw.glich.co/p/how-linkedin-built-a-faster-safer-and-smarter-hdfs-ecosystem",
     "publishDate": "2025-10-13T00:00:00"
   },
@@ -648,16 +592,8 @@
     "publishDate": "2025-10-20T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/what-is-event-driven-architecture",
-    "publishDate": "2025-10-22T00:00:00"
-  },
-  {
     "url": "https://hw.glich.co/p/chatgpt-atlas-vs-perplexity-comet-vs-chrome-browser-comparison-56e2",
     "publishDate": "2025-10-25T00:00:00"
-  },
-  {
-    "url": "https://hw.glich.co/p/how-swiggy-scaled-and-maintained-postgres",
-    "publishDate": "2025-10-27T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/how-context-switching-works-in-operating-systems",
@@ -674,10 +610,6 @@
   {
     "url": "https://hw.glich.co/p/what-is-token-bucket-algorithm",
     "publishDate": "2025-11-05T00:00:00"
-  },
-  {
-    "url": "https://hw.glich.co/p/latest-ai-developments-october-2025",
-    "publishDate": "2025-11-08T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/how-razorpay-uses-terraform-to-simplify-and-scale-infrastructure-management",
@@ -784,10 +716,6 @@
     "publishDate": "2026-01-07T00:00:00"
   },
   {
-    "url": "https://hw.glich.co/p/ai-destroys-tailwindcss-to-aws-learns-from-mistakes",
-    "publishDate": "2026-01-10T00:00:00"
-  },
-  {
     "url": "https://hw.glich.co/p/how-linkedin-rebuilt-its-profile-highlights-system",
     "publishDate": "2026-01-12T00:00:00"
   },
@@ -814,10 +742,6 @@
   {
     "url": "https://hw.glich.co/p/how-linkedin-uses-machine-learning-to-moderate-content-at-scale",
     "publishDate": "2026-01-26T00:00:00"
-  },
-  {
-    "url": "https://hw.glich.co/p/what-is-publish-subscribe-pattern",
-    "publishDate": "2026-01-28T00:00:00"
   },
   {
     "url": "https://hw.glich.co/p/why-small-language-models-are-winning-on-the-edge",
@@ -874,5 +798,17 @@
   {
     "url": "https://hw.glich.co/p/how-shopify-built-super-fast-search-at-c-speed",
     "publishDate": "2026-03-02T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/normalized-vs-denormalized-database",
+    "publishDate": "2026-03-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/gpt-5-4-openai-most-capable-model-professional-work",
+    "publishDate": "2026-03-07T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-slack-automatically-stops-suspicious-activity-in-real-time",
+    "publishDate": "2026-03-09T00:00:00"
   }
 ]
