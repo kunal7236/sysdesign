@@ -17,10 +17,11 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import re
 import sys
+from pathlib import Path
 
 # Configuration
 SITEMAP_URL = "https://hw.glich.co/sitemap.xml"
-OUTPUT_FILE = "posts_dates.json"
+OUTPUT_FILE = Path(__file__).parent.parent / "posts_dates.json"
 POST_URL_PREFIX = "https://hw.glich.co/p/"
 MAX_WORKERS = 3
 REQUEST_DELAY = 1.0
@@ -197,32 +198,11 @@ def sort_by_date(posts: list[dict]) -> list[dict]:
 
 
 def save_to_json(posts: list[dict], filename: str) -> None:
-    """Merges new posts into the existing JSON file. Only insertions/updates
-    are applied — entries present in the existing file but missing from the
-    newly scraped data are preserved as-is (no deletions)."""
-    try:
-        with open(filename, "r", encoding="utf-8") as f:
-            existing_posts = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        existing_posts = []
-
-    existing_by_url = {p["url"]: p for p in existing_posts}
-    before_count = len(existing_by_url)
-
-    for post in posts:
-        existing_by_url[post["url"]] = post
-
-    merged = sort_by_date(list(existing_by_url.values()))
-
-    added = len(existing_by_url) - before_count
-    print(f"\n  Existing entries : {before_count}")
-    print(f"  New insertions   : {added}")
-    print(f"  Total after merge: {len(merged)}")
-
+    """Saves the posts list to a JSON file."""
     with open(filename, "w", encoding="utf-8") as f:
-        json.dump(merged, f, indent=2, ensure_ascii=False)
+        json.dump(posts, f, indent=2, ensure_ascii=False)
 
-    print(f"\nSaved {len(merged)} posts to {filename}")
+    print(f"\nSaved {len(posts)} posts to {filename}")
 
 
 def main():
