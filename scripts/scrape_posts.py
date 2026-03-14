@@ -22,8 +22,8 @@ import sys
 SITEMAP_URL = "https://hw.glich.co/sitemap.xml"
 OUTPUT_FILE = "posts_dates.json"
 POST_URL_PREFIX = "https://hw.glich.co/p/"
-MAX_WORKERS = 10
-REQUEST_DELAY = 0.1
+MAX_WORKERS = 3
+REQUEST_DELAY = 1.0
 
 
 def fetch_sitemap(url: str) -> list[str]:
@@ -99,42 +99,54 @@ def parse_date_string(date_str: str) -> datetime | None:
 def extract_publish_date(url: str) -> dict | None:
     """
     Fetches a page and extracts the publish date from span elements.
-    
+    Retries on 429 with exponential backoff.
+
     Args:
         url: The page URL to scrape
-        
+
     Returns:
         Dict with url and publishDate, or None if extraction fails
     """
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        }
-        
-        response = requests.get(url, headers=headers, timeout=30)
-        response.raise_for_status()
-        
-        soup = BeautifulSoup(response.text, "html.parser")
-        
-        # Look for date in all span elements
-        for span in soup.find_all("span"):
-            text = span.get_text().strip()
-            parsed_date = parse_date_string(text)
-            if parsed_date:
-                return {
-                    "url": url,
-                    "publishDate": parsed_date.strftime("%Y-%m-%dT00:00:00")
-                }
-        
-        print(f"  Warning: No date found for: {url}")
-        return {
-            "url": url,
-            "publishDate": datetime.now().strftime("%Y-%m-%dT00:00:00")
-        }
-        
-    except Exception as e:
-        print(f"  Error scraping {url}: {e}")
-        return None
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+
+    for attempt in range(4):
+        try:
+            response = requests.get(url, headers=headers, timeout=30)
+
+            if response.status_code == 429:
+                wait = 2 ** attempt * 5  # 5, 10, 20, 40 seconds
+                print(f"  Rate limited on {url}, retrying in {wait}s...")
+                time.sleep(wait)
+                continue
+
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, "html.parser")
+
+            # Look for date in all span elements
+            for span in soup.find_all("span"):
+                text = span.get_text().strip()
+                parsed_date = parse_date_string(text)
+                if parsed_date:
+                    return {
+                        "url": url,
+                        "publishDate": parsed_date.strftime("%Y-%m-%dT00:00:00")
+                    }
+
+            print(f"  Warning: No date found for: {url}")
+            return {
+                "url": url,
+                "publishDate": datetime.now().strftime("%Y-%m-%dT00:00:00")
+            }
+
+        except Exception as e:
+            print(f"  Error scraping {url}: {e}")
+            return None
+
+    print(f"  Giving up after retries: {url}")
+    return None
 
 
 def scrape_all_posts(urls: list[str], max_workers: int = 10) -> list[dict]:
@@ -185,11 +197,32 @@ def sort_by_date(posts: list[dict]) -> list[dict]:
 
 
 def save_to_json(posts: list[dict], filename: str) -> None:
-    """Saves the posts list to a JSON file."""
+    """Merges new posts into the existing JSON file. Only insertions/updates
+    are applied — entries present in the existing file but missing from the
+    newly scraped data are preserved as-is (no deletions)."""
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            existing_posts = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        existing_posts = []
+
+    existing_by_url = {p["url"]: p for p in existing_posts}
+    before_count = len(existing_by_url)
+
+    for post in posts:
+        existing_by_url[post["url"]] = post
+
+    merged = sort_by_date(list(existing_by_url.values()))
+
+    added = len(existing_by_url) - before_count
+    print(f"\n  Existing entries : {before_count}")
+    print(f"  New insertions   : {added}")
+    print(f"  Total after merge: {len(merged)}")
+
     with open(filename, "w", encoding="utf-8") as f:
-        json.dump(posts, f, indent=2, ensure_ascii=False)
-    
-    print(f"\nSaved {len(posts)} posts to {filename}")
+        json.dump(merged, f, indent=2, ensure_ascii=False)
+
+    print(f"\nSaved {len(merged)} posts to {filename}")
 
 
 def main():
