@@ -211,34 +211,54 @@ def main():
     print("Blog Post Scraper")
     print(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}")
     print("=" * 60)
-    
-    # Step 1: Fetch URLs from sitemap
+
+    # Step 1: Load existing posts and build a URL -> post map
+    try:
+        with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+            existing_posts = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        existing_posts = []
+
+    existing_by_url = {p["url"]: p for p in existing_posts}
+    print(f"Loaded {len(existing_by_url)} existing posts from {OUTPUT_FILE}")
+
+    # Step 2: Fetch URLs from sitemap
     post_urls = fetch_sitemap(SITEMAP_URL)
-    
+
     if not post_urls:
         print("No blog post URLs found. Exiting.")
         sys.exit(1)
-    
-    # Step 2: Scrape publish dates from individual pages
-    posts = scrape_all_posts(post_urls, max_workers=MAX_WORKERS)
-    
-    if not posts:
-        print("No posts scraped successfully. Exiting.")
-        sys.exit(1)
-    
-    # Step 3: Sort by date (oldest first)
-    sorted_posts = sort_by_date(posts)
-    
-    # Step 4: Save to JSON
+
+    # Step 3: Skip URLs we already have a date for
+    new_urls = [url for url in post_urls if url not in existing_by_url]
+    print(f"Skipping {len(post_urls) - len(new_urls)} already-known URLs")
+    print(f"Scraping {len(new_urls)} new URLs")
+
+    if not new_urls:
+        print("Nothing new to scrape. Exiting.")
+        sys.exit(0)
+
+    # Step 4: Scrape only the new URLs
+    new_posts = scrape_all_posts(new_urls, max_workers=MAX_WORKERS)
+
+    # Step 5: Merge new into existing and sort
+    for post in new_posts:
+        existing_by_url[post["url"]] = post
+
+    sorted_posts = sort_by_date(list(existing_by_url.values()))
+
+    # Step 6: Save to JSON
     save_to_json(sorted_posts, OUTPUT_FILE)
-    
+
     # Summary
     print("\n" + "=" * 60)
     print("SUMMARY")
     print("=" * 60)
     print(f"Blog post URLs (/p/): {len(post_urls)}")
-    print(f"Successfully scraped: {len(sorted_posts)}")
-    print(f"Failed:               {len(post_urls) - len(sorted_posts)}")
+    print(f"Already known:        {len(post_urls) - len(new_urls)}")
+    print(f"Newly scraped:        {len(new_posts)}")
+    print(f"Failed:               {len(new_urls) - len(new_posts)}")
+    print(f"Total in file:        {len(sorted_posts)}")
     print(f"\nOldest post: {sorted_posts[0]['publishDate']} - {sorted_posts[0]['url']}")
     print(f"Newest post: {sorted_posts[-1]['publishDate']} - {sorted_posts[-1]['url']}")
     print("=" * 60)
