@@ -898,5 +898,17 @@
   {
     "url": "https://hw.glich.co/p/how-shopify-made-commerce-data-queryable-without-sql",
     "publishDate": "2026-03-16T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/immutable-data-structures-why-they-matter-in-modern-coding",
+    "publishDate": "2026-03-18T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/future-marketing-teams-will-live-in-github",
+    "publishDate": "2026-03-21T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-slack-cut-their-e2e-build-time-by-80",
+    "publishDate": "2026-03-23T00:00:00"
   }
 ]
