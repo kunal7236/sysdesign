@@ -922,5 +922,17 @@
   {
     "url": "https://hw.glich.co/p/how-airbnb-migrated-a-petabyte-without-users-noticing",
     "publishDate": "2026-03-30T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/aspect-oriented-design-vs-oop-vs-functional-programming",
+    "publishDate": "2026-04-01T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/amazon-bar-raiser-round-explained",
+    "publishDate": "2026-04-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-slack-built-secure-enterprise-search",
+    "publishDate": "2026-04-06T00:00:00"
   }
 ]
