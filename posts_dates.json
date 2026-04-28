@@ -958,5 +958,17 @@
   {
     "url": "https://hw.glich.co/p/how-slack-built-accessibility-checks-into-its-testing-pipeline",
     "publishDate": "2026-04-20T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/idempotent-keys",
+    "publishDate": "2026-04-22T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/software-engineering-no-longer-lifetime-career-ai-shift",
+    "publishDate": "2026-04-25T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-nomad-by-hashicorp-reduced-scheduler-load-by-90",
+    "publishDate": "2026-04-27T00:00:00"
   }
 ]
