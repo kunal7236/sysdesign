@@ -970,5 +970,17 @@
   {
     "url": "https://hw.glich.co/p/how-nomad-by-hashicorp-reduced-scheduler-load-by-90",
     "publishDate": "2026-04-27T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/solid-principles-in-software-engineering-explained-with-examples",
+    "publishDate": "2026-04-29T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/self-healing-tests-dont-solve-the-real-problem",
+    "publishDate": "2026-05-02T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-snowflake-improved-performance-by-27-without-users-noticing",
+    "publishDate": "2026-05-04T00:00:00"
   }
 ]
