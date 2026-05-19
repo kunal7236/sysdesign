@@ -994,5 +994,17 @@
   {
     "url": "https://hw.glich.co/p/how-github-uses-codeql-to-secure-code-at-scale",
     "publishDate": "2026-05-11T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/service-discovery-for-microservices",
+    "publishDate": "2026-05-13T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/why-developers-still-dont-fully-trust-ai-coding-agents",
+    "publishDate": "2026-05-16T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-snowflake-reduced-query-time-by-20-without-you-doing-anything",
+    "publishDate": "2026-05-18T00:00:00"
   }
 ]
