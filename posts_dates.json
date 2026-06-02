@@ -1018,5 +1018,17 @@
   {
     "url": "https://hw.glich.co/p/how-linkedin-rebuilt-service-discovery-to-scale-to-millions-of-services",
     "publishDate": "2026-05-25T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/site-reliability-engineering-best-practices",
+    "publishDate": "2026-05-27T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/everything-you-need-to-know-about-claude-opus-4-8",
+    "publishDate": "2026-05-30T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-slack-makes-its-mobile-app-feel-seamless-even-on-bad-internet",
+    "publishDate": "2026-06-01T00:00:00"
   }
 ]
