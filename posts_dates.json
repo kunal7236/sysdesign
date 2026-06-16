@@ -1042,5 +1042,17 @@
   {
     "url": "https://hw.glich.co/p/when-microservices-get-messy-how-api-federation-brings-order",
     "publishDate": "2026-06-08T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/database-replication-in-system-design",
+    "publishDate": "2026-06-10T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/claude-vs-mimo-telegram-on-watch-and-share-your-ai-agents-freely",
+    "publishDate": "2026-06-13T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-uber-standardized-mobile-analytics-without-slowing-down-teams",
+    "publishDate": "2026-06-15T00:00:00"
   }
 ]
