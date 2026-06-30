@@ -1066,5 +1066,13 @@
   {
     "url": "https://hw.glich.co/p/how-linkedin-built-northguard-and-xinfra-to-move-beyond-kafka",
     "publishDate": "2026-06-22T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/glm-5-2-open-ai-model",
+    "publishDate": "2026-06-27T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-uber-uses-pull-based-ingestion-to-keep-search-data-fresh-at-massive-scale",
+    "publishDate": "2026-06-29T00:00:00"
   }
 ]
