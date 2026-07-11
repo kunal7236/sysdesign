@@ -1074,5 +1074,17 @@
   {
     "url": "https://hw.glich.co/p/how-uber-uses-pull-based-ingestion-to-keep-search-data-fresh-at-massive-scale",
     "publishDate": "2026-06-29T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/ai-labels-lower-social-media-engagement",
+    "publishDate": "2026-07-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-cloudflare-built-an-intelligent-maintenance-scheduler-using-workers",
+    "publishDate": "2026-07-06T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/meta-muse-spark-agentic-ai",
+    "publishDate": "2026-07-11T00:00:00"
   }
 ]
