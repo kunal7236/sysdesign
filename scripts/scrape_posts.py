@@ -39,8 +39,13 @@ def fetch_sitemap(url: str) -> list[str]:
     """
     print(f"Fetching sitemap from {url}...")
     
-    # Fetch the sitemap XML
-    response = requests.get(url, timeout=30)
+    # Add standard browser headers to avoid the 403 Forbidden blocker
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+    
+    # Fetch the sitemap XML with headers included
+    response = requests.get(url, headers=headers, timeout=30)
     response.raise_for_status()
     
     # Parse XML with proper namespace
@@ -66,7 +71,6 @@ def fetch_sitemap(url: str) -> list[str]:
     print(f"Found {len(all_urls)} total URLs in sitemap")
     print(f"Filtered to {len(post_urls)} blog post URLs (prefix: {POST_URL_PREFIX})")
     return post_urls
-
 
 def parse_date_string(date_str: str) -> datetime | None:
     """
