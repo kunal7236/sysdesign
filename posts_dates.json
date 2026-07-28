@@ -1098,5 +1098,13 @@
   {
     "url": "https://hw.glich.co/p/why-netflix-replaced-its-custom-batch-scheduler-with-kueue",
     "publishDate": "2026-07-20T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-meta-migrated-one-of-the-world-s-largest-data-ingestion-systems-without-downtime",
+    "publishDate": "2026-07-28T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/why-crud-is-dead",
+    "publishDate": "2026-07-28T00:00:00"
   }
 ]
