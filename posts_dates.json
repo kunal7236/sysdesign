@@ -1186,5 +1186,13 @@
   {
     "url": "https://hw.glich.co/p/openai-dots-gpt-6-1-sol-vs-gemini-4-argon",
     "publishDate": "2026-10-06T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-netflix-built-a-data-canary-to-catch-bad-catalog-data",
+    "publishDate": "2026-10-13T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/evolution-of-automation-at-google",
+    "publishDate": "2026-10-13T00:00:00"
   }
 ]
