@@ -1218,5 +1218,21 @@
   {
     "url": "https://hw.glich.co/p/new-software-engineering-tech-stack-2026",
     "publishDate": "2026-11-04T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-microsoft-built-ask-learn-the-rag-system-behind-copilot-for-azure",
+    "publishDate": "2026-11-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/how-aws-graviton5-delivers-25-better-performance-by-redesigning-the-chip-itself",
+    "publishDate": "2026-11-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/what-makes-an-ai-agent-self-evolving",
+    "publishDate": "2026-11-17T00:00:00"
+  },
+  {
+    "url": "https://hw.glich.co/p/oprahnomics-of-ai-free-compute-economy",
+    "publishDate": "2026-11-17T00:00:00"
   }
 ]
